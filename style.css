@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  color: black;
+
+}
+header{
+    padding: 0.5rem;
+    margin: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: red;
+
+
+}
+#logo{
+    color: blue;
+    
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 150%;
+  /* background-color: yellow; */
+
+}
